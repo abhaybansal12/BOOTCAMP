@@ -89,13 +89,24 @@ button{
     transition: all 0.5s;
 }
 .c1{
-    background-image: url(pavbhaji.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(./pavbhaji.jpg);
 }.c2{
-    background-image: url(pavbhaji.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(./pavbhaji.jpg);
 }.c3{
-    background-image: url(pavbhaji.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(./pavbhaji.jpg);
 }.c4{
-    background-image: url(pavbhaji.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(./pavbhaji.jpg);
+}
+
+button{
+    cursor: pointer;
+    transition: all ease 0.4s;
+    border: 1px solid white;    
+}
+button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;    
 }
 
 .card:hover{
